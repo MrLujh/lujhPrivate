@@ -10,6 +10,6 @@ s.license     = { :type => "MIT", :file => "LICENSE" }
 
 s.platform = :ios, '7.0'
 s.requires_arc = true
-s.source_files = "lujhPrivate/lujhPrivate", "*.{h,m}"
+s.source_files = "lujhPrivate", "*.{h,m}"
 s.ios.deployment_target = '7.0'
 end
