@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = 'lujhPrivate'
-s.version     = '1.0.1'
+s.version     = '1.0.2'
 s.authors     = { 'daniulaolu' => '287929070@qq.com' }
 s.homepage    = 'https://github.com/daniulaolu/lujhPrivate'
 s.summary     = 'a dropdown menu for ios like wechat homepage.'
@@ -11,5 +11,6 @@ s.license     = { :type => "MIT", :file => "LICENSE" }
 s.platform = :ios, '7.0'
 s.requires_arc = true
 s.source_files = "lujhPrivate", "*.{h,m}"
+s.resource     = 'lujhPrivate/lujh.bundle'
 s.ios.deployment_target = '7.0'
 end
