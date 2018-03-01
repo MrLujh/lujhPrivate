@@ -14,12 +14,12 @@
 		2E984D422047A32300BA0B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E984D402047A32300BA0B30 /* LaunchScreen.storyboard */; };
 		2E984D452047A32300BA0B30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E984D442047A32300BA0B30 /* main.m */; };
 		2E984D4F2047A32300BA0B30 /* privateExempleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E984D4E2047A32300BA0B30 /* privateExempleTests.m */; };
-		2E984D8E2047A86C00BA0B30 /* abc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E984D8D2047A86C00BA0B30 /* abc.m */; };
 		2E984DDB2047CFED00BA0B30 /* privateFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E984DD22047CFED00BA0B30 /* privateFramework.framework */; };
 		2E984DE22047CFED00BA0B30 /* privateFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E984DE12047CFED00BA0B30 /* privateFrameworkTests.m */; };
 		2E984DE42047CFED00BA0B30 /* privateFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E984DD42047CFED00BA0B30 /* privateFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E984DE72047CFED00BA0B30 /* privateFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E984DD22047CFED00BA0B30 /* privateFramework.framework */; };
 		2E984DE82047CFED00BA0B30 /* privateFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E984DD22047CFED00BA0B30 /* privateFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2E984E312047F41700BA0B30 /* abc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E984E2F2047F41700BA0B30 /* abc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,14 +81,14 @@
 		2E984D4A2047A32300BA0B30 /* privateExempleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = privateExempleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E984D4E2047A32300BA0B30 /* privateExempleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = privateExempleTests.m; sourceTree = "<group>"; };
 		2E984D502047A32300BA0B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E984D8C2047A86C00BA0B30 /* abc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abc.h; sourceTree = "<group>"; };
-		2E984D8D2047A86C00BA0B30 /* abc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abc.m; sourceTree = "<group>"; };
 		2E984DD22047CFED00BA0B30 /* privateFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = privateFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E984DD42047CFED00BA0B30 /* privateFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = privateFramework.h; sourceTree = "<group>"; };
 		2E984DD52047CFED00BA0B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E984DDA2047CFED00BA0B30 /* privateFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = privateFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E984DE12047CFED00BA0B30 /* privateFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = privateFrameworkTests.m; sourceTree = "<group>"; };
 		2E984DE32047CFED00BA0B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E984E2F2047F41700BA0B30 /* abc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = abc.m; sourceTree = "<group>"; };
+		2E984E302047F41700BA0B30 /* abc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 		2E984D342047A32300BA0B30 /* privateExemple */ = {
 			isa = PBXGroup;
 			children = (
-				2E984D8B2047A69000BA0B30 /* private */,
+				2E984E2E2047F41700BA0B30 /* lujhPrivate */,
 				2E984D352047A32300BA0B30 /* AppDelegate.h */,
 				2E984D362047A32300BA0B30 /* AppDelegate.m */,
 				2E984D382047A32300BA0B30 /* ViewController.h */,
@@ -173,15 +173,6 @@
 			path = privateExempleTests;
 			sourceTree = "<group>";
 		};
-		2E984D8B2047A69000BA0B30 /* private */ = {
-			isa = PBXGroup;
-			children = (
-				2E984D8C2047A86C00BA0B30 /* abc.h */,
-				2E984D8D2047A86C00BA0B30 /* abc.m */,
-			);
-			path = private;
-			sourceTree = SOURCE_ROOT;
-		};
 		2E984DD32047CFED00BA0B30 /* privateFramework */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +190,15 @@
 			);
 			path = privateFrameworkTests;
 			sourceTree = "<group>";
+		};
+		2E984E2E2047F41700BA0B30 /* lujhPrivate */ = {
+			isa = PBXGroup;
+			children = (
+				2E984E2F2047F41700BA0B30 /* abc.m */,
+				2E984E302047F41700BA0B30 /* abc.h */,
+			);
+			path = lujhPrivate;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -379,7 +379,7 @@
 			files = (
 				2E984D3A2047A32300BA0B30 /* ViewController.m in Sources */,
 				2E984D452047A32300BA0B30 /* main.m in Sources */,
-				2E984D8E2047A86C00BA0B30 /* abc.m in Sources */,
+				2E984E312047F41700BA0B30 /* abc.m in Sources */,
 				2E984D372047A32300BA0B30 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
