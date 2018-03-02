@@ -70,8 +70,6 @@ s.license= { :type => “MIT”, :file => “LICENSE” }
       .podspec文件,
   
       LICENSE文件
-      
-      使用以下命令测试本地.podspec文件是否存在语法错误
 
 ```objc
 pod spec lint lujhPrivate.podspec --verbose
