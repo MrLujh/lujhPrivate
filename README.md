@@ -138,4 +138,4 @@ pod search lujhPrivate
 ```
 
 ## My weixin
-![(logo)](http://images.cnitblog.com/blog2015/497279/201505/051004492043385.png)
+![(author)](https://github.com/daniulaolu/PushParameterWithDict-/blob/master/xiaolu.jpg)
