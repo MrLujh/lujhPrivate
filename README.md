@@ -29,3 +29,8 @@
 ### 2.将自己的项目打成tag
    
     因为cocoapods是依赖tag版本的,所以必须打tag,以后再次更新只需要把你的项目打一个tag，然后修改.podspec文件中的版本接着提交到cocoapods官方就可以了,提交命令请看下面
+    
+    在终端执行以下命令：//为git打tag, 第一次需要在前面加一个v
+ 
+    git tag "v1.0.0"     
+    git push --tags
