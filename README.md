@@ -1,5 +1,8 @@
 ## lujhPrivate
 * 制作自己的开源库，通过cocoapods发布出去
+
+![](https://github.com/daniulaolu/lujhPrivate/blob/master/resounce.png)
+
 ## podspec文件
 ```objc
 * Pod::Spec.new do |s|
