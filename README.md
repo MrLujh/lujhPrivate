@@ -2,6 +2,7 @@
 ## lujhPrivate
 * 制作自己的开源库，通过cocoapods发布出去
 ## podspec文件
+```objc
 * Pod::Spec.new do |s|
 * s.name        = 'lujhPrivate'
 * s.version     = '1.0.4'
@@ -19,7 +20,7 @@
 * s.frameworks   =  'QuartzCore', 'Security', 'UIKit', 'Foundation', 'CoreGraphics','CoreTelephony'
 * s.dependency 'SAMKeychain'
 * end
-
+```
 ## 制作方法
 
 ### 1.写好代码，上传到github
@@ -27,11 +28,29 @@
       //github上创建项目仓库的时候记得创建LICENSE(许可证/授权)文件,此文件必须要有
 
 ### 2.将自己的项目打成tag
-```objc   
-      //因为cocoapods是依赖tag版本的,所以必须打tag,以后再次更新只需要把你的项目打一个tag，然后修改.podspec文件中的版本接着提交到cocoapods官方就可以了,提交命令请看下面
+   
+      因为cocoapods是依赖tag版本的,所以必须打tag,以后再次更新只需要把你的项目打一个tag，然后修改.podspec文件中的版本接着提交到cocoapods官方就可以了,提交命令请看下面
     
-      //在终端执行以下命令：为git打tag, 第一次需要在前面加一个v
- 
-      //git tag "v1.0.0"     
+      在终端执行以下命令：为git打tag, 第一次需要在前面加一个v
+```objc 
+      //git tag "v1.0.0" 
+      
       //git push --tags
 ```
+
+### 3.trunk需要CocoaPods 
+
+```objc 
+      pod trunk me
+```
+      若未注册，执行以下命令，邮箱以及用户名请对号入座。用户名我使用的是Github上的用户名。
+ 
+ ```objc
+      // 加上--verbose可以输出详细错误信息，方便出错时查看。
+      
+      pod trunk register example@example.com 'liugangios'  --verbose
+```
+
+      注册完成之后会给你的邮箱发个邮件,进入邮箱邮件里面有个链接,需要点击确认一下。
+      
+      注册完成后使用pod trunk me检验注册是否成功
