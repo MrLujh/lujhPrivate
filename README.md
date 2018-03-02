@@ -19,3 +19,13 @@
 * s.frameworks   =  'QuartzCore', 'Security', 'UIKit', 'Foundation', 'CoreGraphics','CoreTelephony'
 * s.dependency 'SAMKeychain'
 * end
+
+## 制作方法
+
+### 1.写好代码，上传到github
+
+    github上创建项目仓库的时候记得创建LICENSE(许可证/授权)文件,此文件必须要有
+
+### 2.将自己的项目打成tag
+   
+    因为cocoapods是依赖tag版本的,所以必须打tag,以后再次更新只需要把你的项目打一个tag，然后修改.podspec文件中的版本接着提交到cocoapods官方就可以了,提交命令请看下面
