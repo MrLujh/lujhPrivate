@@ -26,16 +26,39 @@
 ### 1.写好代码，上传到github
 
       //github上创建项目仓库的时候记得创建LICENSE(许可证/授权)文件,此文件必须要有
+      
+### 2.创建.podspec
 
-### 2.将自己的项目打成tag
-   
-      因为cocoapods是依赖tag版本的,所以必须打tag,以后再次更新只需要把你的项目打一个tag，然后修改.podspec文件中的版本接着提交到cocoapods官方就可以了,提交命令请看下面
-    
-      在终端执行以下命令：为git打tag, 第一次需要在前面加一个v
-```objc 
-      //git tag "v1.0.0" 
+      cd到你项目的目录,执行命令
       
-      //git push --tags
+```objc       
+      pod spec create lujhPrivate
+```
+
+### 3.编辑.podspec
+      
+      上面的样式来编辑
+      
+```objc       
+s.name：名称，pod search搜索的关键词,注意这里一定要和.podspec的名称一样,否则报错
+s.version：版本号，to_s：返回一个字符串
+s.author:作者
+s.homepage:项目主页地址
+s.summary: 项目简介
+s.source:项目源码所在地址
+s.license:许可证
+s.platform:项目支持平台
+s.requires_arc: 是否支持ARC
+s.source_files:需要包含的源文件
+s.public_header_files:需要包含的头文件
+s.ios.deployment_target:支持的pod最低版本
+其他一些非必要字段
+
+s.social_media_url:社交网址
+s.resources:资源文件
+s.dependency:依赖库，不能依赖未发布的库
+s.license= { :type => “MIT”, :file => “LICENSE” }
+这里建议这样写,如果写别的会报警告,导致后面一直提交失败
 ```
 
 ### 3.trunk需要CocoaPods 
@@ -48,9 +71,20 @@
  ```objc
       // 加上--verbose可以输出详细错误信息，方便出错时查看。
       
-      pod trunk register example@example.com 'liugangios'  --verbose
+      pod trunk register example@example.com 'lujhPrivate'  --verbose
 ```
 
       注册完成之后会给你的邮箱发个邮件,进入邮箱邮件里面有个链接,需要点击确认一下。
       
       注册完成后使用pod trunk me检验注册是否成功
+      
+ ### 2.将自己的项目打成tag
+   
+      因为cocoapods是依赖tag版本的,所以必须打tag,以后再次更新只需要把你的项目打一个tag，然后修改.podspec文件中的版本接着提交到cocoapods官方就可以了,提交命令请看下面
+    
+      在终端执行以下命令：为git打tag, 第一次需要在前面加一个v
+```objc 
+      //git tag "v1.0.0" 
+      
+      //git push --tags
+```
