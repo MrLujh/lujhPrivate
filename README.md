@@ -64,8 +64,6 @@ s.license= { :type => “MIT”, :file => “LICENSE” }
 ### 4.验证.podspec
 
       到此检查一下你工程中有以下文件：
-
-      你的项目,
       
       .podspec文件,
   
