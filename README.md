@@ -1,4 +1,3 @@
-![(logo)](http://images.cnitblog.com/blog2015/497279/201505/051004492043385.png)
 ## lujhPrivate
 * 制作自己的开源库，通过cocoapods发布出去
 ## podspec文件
@@ -137,3 +136,6 @@ pod trunk push lujhPrivate.podspec
 rm ~/Library/Caches/CocoaPods/search_index.json
 pod search lujhPrivate
 ```
+
+## My weixin
+![(logo)](http://images.cnitblog.com/blog2015/497279/201505/051004492043385.png)
