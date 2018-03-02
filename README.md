@@ -1,7 +1,7 @@
 ![(logo)](http://images.cnitblog.com/blog2015/497279/201505/051004492043385.png)
 ## lujhPrivate
 * 制作自己的开源库，通过cocoapods发布出去
-## .podspec文件
+## podspec文件
 * Pod::Spec.new do |s|
 * s.name        = 'lujhPrivate'
 * s.version     = '1.0.4'
