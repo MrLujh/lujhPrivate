@@ -99,7 +99,7 @@ pod trunk register example@example.com 'lujhPrivate'  --verbose
       在终端执行以下命令：为git打tag, 第一次需要在前面加一个v
       
 ```objc 
-git tag "v1.0.0" 
+git tag "1.0.0" 
       
 git push --tags
 ```
