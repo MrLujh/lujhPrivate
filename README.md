@@ -1,9 +1,9 @@
 ## lujhPrivate
 * 制作自己的开源库，通过cocoapods发布出去
 
-* ![Mou icon](https://github.com/daniulaolu/Fastlane--Packaging/blob/master/packaging.gif)
+* ![Mou icon](https://github.com/daniulaolu/lujhPrivate/blob/master/lujhPrivate.gif)
 
-![](https://github.com/daniulaolu/lujhPrivate/blob/master/resounce.png)
+* ![](https://github.com/daniulaolu/lujhPrivate/blob/master/resounce.png)
 
 ## podspec文件
 ```objc
