@@ -77,6 +77,8 @@ s.license= { :type => “MIT”, :file => “LICENSE” }
 pod spec lint lujhPrivate.podspec --verbose
 ```
 
+      如果验证podspec有错误，修改完，把本地的文件推到远端上。
+      
 ### 5.trunk需要CocoaPods 
 
 ```objc 
