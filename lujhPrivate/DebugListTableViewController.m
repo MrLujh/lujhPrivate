@@ -7,10 +7,8 @@
 //
 
 #import "DebugListTableViewController.h"
-#import "DebugLogInfoViewController.h" // 网络请求日志
 #import "DebugSwitchBaseUrlController.h" // 基础网址切换
 #import "DebugAppDownloadController.h" // 蒲谷英下载
-//#import "FLEXManager.h"
 
 @interface DebugListTableViewController ()
 /** dataSource */
@@ -22,7 +20,7 @@
 {
     if (_dataSource == nil) {
         
-        NSArray *titleArray = @[@"网络请求日志",@"蒲公英安装最新版",@"FLEX tools",@"切换BaseUrl"];
+        NSArray *titleArray = @[@"切换BaseUrl",@"蒲公英安装最新版"];
         _dataSource = titleArray.mutableCopy;
     }
     return _dataSource;
@@ -61,25 +59,14 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     switch (indexPath.row) {
+        
         case 0:
-        {
-            DebugLogInfoViewController *vc = [[DebugLogInfoViewController alloc] init];
-            [self.navigationController pushViewController:vc animated:true];
-        }
-            break;
-        case 1:
-        {
-//            [[FLEXManager sharedManager] showExplorer];
-//            [self dismissViewControllerAnimated:true completion:nil];
-        }
-            break;
-        case 2:
         {
             DebugSwitchBaseUrlController *vc = [[DebugSwitchBaseUrlController alloc] init];
             [self.navigationController pushViewController:vc animated:true];
         }
             break;
-        case 3:
+        case 1:
         {
             DebugAppDownloadController *vc = [[DebugAppDownloadController alloc] init];
             [self.navigationController pushViewController:vc animated:true];

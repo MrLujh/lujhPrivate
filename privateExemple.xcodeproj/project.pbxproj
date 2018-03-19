@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E451F31205FAD6800A6C71D /* DebugListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E451F26205FAD6700A6C71D /* DebugListTableViewController.m */; };
-		2E451F32205FAD6800A6C71D /* DebugShakeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E451F27205FAD6700A6C71D /* DebugShakeWindow.m */; };
-		2E451F33205FAD6800A6C71D /* DebugAppDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E451F29205FAD6800A6C71D /* DebugAppDownloadController.m */; };
-		2E451F34205FAD6800A6C71D /* DebugLogInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E451F2C205FAD6800A6C71D /* DebugLogInfoViewController.m */; };
-		2E451F35205FAD6800A6C71D /* DebugSwitchBaseUrlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E451F30205FAD6800A6C71D /* DebugSwitchBaseUrlController.m */; };
+		2E452060205FCD1C00A6C71D /* DebugListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E452057205FCD1B00A6C71D /* DebugListTableViewController.m */; };
+		2E452061205FCD1C00A6C71D /* DebugShakeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E452058205FCD1B00A6C71D /* DebugShakeWindow.m */; };
+		2E452062205FCD1C00A6C71D /* DebugAppDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E45205A205FCD1B00A6C71D /* DebugAppDownloadController.m */; };
+		2E452063205FCD1C00A6C71D /* DebugSwitchBaseUrlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E45205F205FCD1C00A6C71D /* DebugSwitchBaseUrlController.m */; };
 		2E984D372047A32300BA0B30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E984D362047A32300BA0B30 /* AppDelegate.m */; };
 		2E984D3A2047A32300BA0B30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E984D392047A32300BA0B30 /* ViewController.m */; };
 		2E984D3D2047A32300BA0B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E984D3B2047A32300BA0B30 /* Main.storyboard */; };
@@ -74,17 +73,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2E451F26205FAD6700A6C71D /* DebugListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugListTableViewController.m; sourceTree = "<group>"; };
-		2E451F27205FAD6700A6C71D /* DebugShakeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugShakeWindow.m; sourceTree = "<group>"; };
-		2E451F28205FAD6800A6C71D /* DebugAppDownloadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugAppDownloadController.h; sourceTree = "<group>"; };
-		2E451F29205FAD6800A6C71D /* DebugAppDownloadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugAppDownloadController.m; sourceTree = "<group>"; };
-		2E451F2A205FAD6800A6C71D /* DebugListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugListTableViewController.h; sourceTree = "<group>"; };
-		2E451F2B205FAD6800A6C71D /* DebugKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugKit.h; sourceTree = "<group>"; };
-		2E451F2C205FAD6800A6C71D /* DebugLogInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLogInfoViewController.m; sourceTree = "<group>"; };
-		2E451F2D205FAD6800A6C71D /* DebugShakeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugShakeWindow.h; sourceTree = "<group>"; };
-		2E451F2E205FAD6800A6C71D /* DebugSwitchBaseUrlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugSwitchBaseUrlController.h; sourceTree = "<group>"; };
-		2E451F2F205FAD6800A6C71D /* DebugLogInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLogInfoViewController.h; sourceTree = "<group>"; };
-		2E451F30205FAD6800A6C71D /* DebugSwitchBaseUrlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugSwitchBaseUrlController.m; sourceTree = "<group>"; };
+		2E451F36205FB58B00A6C71D /* abc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abc.h; sourceTree = "<group>"; };
+		2E452057205FCD1B00A6C71D /* DebugListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugListTableViewController.m; sourceTree = "<group>"; };
+		2E452058205FCD1B00A6C71D /* DebugShakeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugShakeWindow.m; sourceTree = "<group>"; };
+		2E452059205FCD1B00A6C71D /* DebugAppDownloadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugAppDownloadController.h; sourceTree = "<group>"; };
+		2E45205A205FCD1B00A6C71D /* DebugAppDownloadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugAppDownloadController.m; sourceTree = "<group>"; };
+		2E45205B205FCD1B00A6C71D /* DebugListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugListTableViewController.h; sourceTree = "<group>"; };
+		2E45205C205FCD1B00A6C71D /* DebugKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugKit.h; sourceTree = "<group>"; };
+		2E45205D205FCD1C00A6C71D /* DebugShakeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugShakeWindow.h; sourceTree = "<group>"; };
+		2E45205E205FCD1C00A6C71D /* DebugSwitchBaseUrlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugSwitchBaseUrlController.h; sourceTree = "<group>"; };
+		2E45205F205FCD1C00A6C71D /* DebugSwitchBaseUrlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugSwitchBaseUrlController.m; sourceTree = "<group>"; };
 		2E984D322047A32300BA0B30 /* privateExemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = privateExemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E984D352047A32300BA0B30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E984D362047A32300BA0B30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 		2E984DE12047CFED00BA0B30 /* privateFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = privateFrameworkTests.m; sourceTree = "<group>"; };
 		2E984DE32047CFED00BA0B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E984E2F2047F41700BA0B30 /* abc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = abc.m; sourceTree = "<group>"; };
-		2E984E302047F41700BA0B30 /* abc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abc.h; sourceTree = "<group>"; };
 		2E984E322048001500BA0B30 /* lujh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = lujh.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -213,19 +210,17 @@
 			isa = PBXGroup;
 			children = (
 				2E984E322048001500BA0B30 /* lujh.bundle */,
+				2E451F36205FB58B00A6C71D /* abc.h */,
 				2E984E2F2047F41700BA0B30 /* abc.m */,
-				2E984E302047F41700BA0B30 /* abc.h */,
-				2E451F2B205FAD6800A6C71D /* DebugKit.h */,
-				2E451F28205FAD6800A6C71D /* DebugAppDownloadController.h */,
-				2E451F29205FAD6800A6C71D /* DebugAppDownloadController.m */,
-				2E451F2A205FAD6800A6C71D /* DebugListTableViewController.h */,
-				2E451F26205FAD6700A6C71D /* DebugListTableViewController.m */,
-				2E451F2F205FAD6800A6C71D /* DebugLogInfoViewController.h */,
-				2E451F2C205FAD6800A6C71D /* DebugLogInfoViewController.m */,
-				2E451F2D205FAD6800A6C71D /* DebugShakeWindow.h */,
-				2E451F27205FAD6700A6C71D /* DebugShakeWindow.m */,
-				2E451F2E205FAD6800A6C71D /* DebugSwitchBaseUrlController.h */,
-				2E451F30205FAD6800A6C71D /* DebugSwitchBaseUrlController.m */,
+				2E45205C205FCD1B00A6C71D /* DebugKit.h */,
+				2E452059205FCD1B00A6C71D /* DebugAppDownloadController.h */,
+				2E45205A205FCD1B00A6C71D /* DebugAppDownloadController.m */,
+				2E45205B205FCD1B00A6C71D /* DebugListTableViewController.h */,
+				2E452057205FCD1B00A6C71D /* DebugListTableViewController.m */,
+				2E45205D205FCD1C00A6C71D /* DebugShakeWindow.h */,
+				2E452058205FCD1B00A6C71D /* DebugShakeWindow.m */,
+				2E45205E205FCD1C00A6C71D /* DebugSwitchBaseUrlController.h */,
+				2E45205F205FCD1C00A6C71D /* DebugSwitchBaseUrlController.m */,
 			);
 			path = lujhPrivate;
 			sourceTree = SOURCE_ROOT;
@@ -410,13 +405,12 @@
 			files = (
 				2E984D3A2047A32300BA0B30 /* ViewController.m in Sources */,
 				2E984D452047A32300BA0B30 /* main.m in Sources */,
-				2E451F32205FAD6800A6C71D /* DebugShakeWindow.m in Sources */,
-				2E451F34205FAD6800A6C71D /* DebugLogInfoViewController.m in Sources */,
-				2E451F31205FAD6800A6C71D /* DebugListTableViewController.m in Sources */,
+				2E452061205FCD1C00A6C71D /* DebugShakeWindow.m in Sources */,
+				2E452060205FCD1C00A6C71D /* DebugListTableViewController.m in Sources */,
+				2E452063205FCD1C00A6C71D /* DebugSwitchBaseUrlController.m in Sources */,
 				2E984E312047F41700BA0B30 /* abc.m in Sources */,
-				2E451F35205FAD6800A6C71D /* DebugSwitchBaseUrlController.m in Sources */,
 				2E984D372047A32300BA0B30 /* AppDelegate.m in Sources */,
-				2E451F33205FAD6800A6C71D /* DebugAppDownloadController.m in Sources */,
+				2E452062205FCD1C00A6C71D /* DebugAppDownloadController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
