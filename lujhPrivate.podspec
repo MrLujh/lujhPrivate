@@ -16,5 +16,4 @@ s.ios.deployment_target = '7.0'
 s.frameworks   =  'QuartzCore', 'Security', 'UIKit', 'Foundation', 'CoreGraphics','CoreTelephony'
 s.dependency 'SAMKeychain'
 s.dependency 'CocoaLumberjack'
-s.dependency 'FLEX'
 end

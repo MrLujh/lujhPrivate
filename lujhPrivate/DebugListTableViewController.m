@@ -10,7 +10,7 @@
 #import "DebugLogInfoViewController.h" // 网络请求日志
 #import "DebugSwitchBaseUrlController.h" // 基础网址切换
 #import "DebugAppDownloadController.h" // 蒲谷英下载
-#import "FLEXManager.h"
+//#import "FLEXManager.h"
 
 @interface DebugListTableViewController ()
 /** dataSource */
@@ -69,8 +69,8 @@
             break;
         case 1:
         {
-            [[FLEXManager sharedManager] showExplorer];
-            [self dismissViewControllerAnimated:true completion:nil];
+//            [[FLEXManager sharedManager] showExplorer];
+//            [self dismissViewControllerAnimated:true completion:nil];
         }
             break;
         case 2:
