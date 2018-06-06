@@ -23,7 +23,8 @@ s.subspec 'B' do |ss|
   end
 
 s.subspec 'C' do |ss|
-    ss.dependency 'B'
+    ss.dependency 'lujhPrivate/B'
+
     ss.source_files = 'lujhPrivate/C/**/*.{h,m}'
     ss.public_header_files = 'lujhPrivate/C/**/*.h'
     
