@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E1E0BA420C776DB003373F5 /* abc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1E0BA220C776DB003373F5 /* abc.m */; };
+		2E1E0BA720C77727003373F5 /* lujh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E1E0BA620C77727003373F5 /* lujh.bundle */; };
 		2E452060205FCD1C00A6C71D /* DebugListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E452057205FCD1B00A6C71D /* DebugListTableViewController.m */; };
 		2E452061205FCD1C00A6C71D /* DebugShakeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E452058205FCD1B00A6C71D /* DebugShakeWindow.m */; };
 		2E452062205FCD1C00A6C71D /* DebugAppDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E45205A205FCD1B00A6C71D /* DebugAppDownloadController.m */; };
@@ -23,8 +25,6 @@
 		2E984DE42047CFED00BA0B30 /* privateFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E984DD42047CFED00BA0B30 /* privateFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E984DE72047CFED00BA0B30 /* privateFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E984DD22047CFED00BA0B30 /* privateFramework.framework */; };
 		2E984DE82047CFED00BA0B30 /* privateFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E984DD22047CFED00BA0B30 /* privateFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2E984E312047F41700BA0B30 /* abc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E984E2F2047F41700BA0B30 /* abc.m */; };
-		2E984E332048001500BA0B30 /* lujh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E984E322048001500BA0B30 /* lujh.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,13 +73,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2E451F36205FB58B00A6C71D /* abc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abc.h; sourceTree = "<group>"; };
+		2E1E0BA220C776DB003373F5 /* abc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = abc.m; sourceTree = "<group>"; };
+		2E1E0BA320C776DB003373F5 /* abc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abc.h; sourceTree = "<group>"; };
+		2E1E0BA620C77727003373F5 /* lujh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = lujh.bundle; sourceTree = "<group>"; };
 		2E452057205FCD1B00A6C71D /* DebugListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugListTableViewController.m; sourceTree = "<group>"; };
 		2E452058205FCD1B00A6C71D /* DebugShakeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugShakeWindow.m; sourceTree = "<group>"; };
 		2E452059205FCD1B00A6C71D /* DebugAppDownloadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugAppDownloadController.h; sourceTree = "<group>"; };
 		2E45205A205FCD1B00A6C71D /* DebugAppDownloadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugAppDownloadController.m; sourceTree = "<group>"; };
 		2E45205B205FCD1B00A6C71D /* DebugListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugListTableViewController.h; sourceTree = "<group>"; };
-		2E45205C205FCD1B00A6C71D /* DebugKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugKit.h; sourceTree = "<group>"; };
 		2E45205D205FCD1C00A6C71D /* DebugShakeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugShakeWindow.h; sourceTree = "<group>"; };
 		2E45205E205FCD1C00A6C71D /* DebugSwitchBaseUrlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugSwitchBaseUrlController.h; sourceTree = "<group>"; };
 		2E45205F205FCD1C00A6C71D /* DebugSwitchBaseUrlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugSwitchBaseUrlController.m; sourceTree = "<group>"; };
@@ -102,8 +103,6 @@
 		2E984DDA2047CFED00BA0B30 /* privateFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = privateFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E984DE12047CFED00BA0B30 /* privateFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = privateFrameworkTests.m; sourceTree = "<group>"; };
 		2E984DE32047CFED00BA0B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E984E2F2047F41700BA0B30 /* abc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = abc.m; sourceTree = "<group>"; };
-		2E984E322048001500BA0B30 /* lujh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = lujh.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +139,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E1E0BA120C776DB003373F5 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				2E1E0BA220C776DB003373F5 /* abc.m */,
+				2E1E0BA320C776DB003373F5 /* abc.h */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		2E1E0BA520C77727003373F5 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				2E1E0BA620C77727003373F5 /* lujh.bundle */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 		2E984D292047A32300BA0B30 = {
 			isa = PBXGroup;
 			children = (
@@ -209,10 +225,8 @@
 		2E984E2E2047F41700BA0B30 /* lujhPrivate */ = {
 			isa = PBXGroup;
 			children = (
-				2E984E322048001500BA0B30 /* lujh.bundle */,
-				2E451F36205FB58B00A6C71D /* abc.h */,
-				2E984E2F2047F41700BA0B30 /* abc.m */,
-				2E45205C205FCD1B00A6C71D /* DebugKit.h */,
+				2E1E0BA520C77727003373F5 /* resource */,
+				2E1E0BA120C776DB003373F5 /* A */,
 				2E452059205FCD1B00A6C71D /* DebugAppDownloadController.h */,
 				2E45205A205FCD1B00A6C71D /* DebugAppDownloadController.m */,
 				2E45205B205FCD1B00A6C71D /* DebugListTableViewController.h */,
@@ -369,8 +383,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E984D422047A32300BA0B30 /* LaunchScreen.storyboard in Resources */,
+				2E1E0BA720C77727003373F5 /* lujh.bundle in Resources */,
 				2E984D3F2047A32300BA0B30 /* Assets.xcassets in Resources */,
-				2E984E332048001500BA0B30 /* lujh.bundle in Resources */,
 				2E984D3D2047A32300BA0B30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,9 +420,9 @@
 				2E984D3A2047A32300BA0B30 /* ViewController.m in Sources */,
 				2E984D452047A32300BA0B30 /* main.m in Sources */,
 				2E452061205FCD1C00A6C71D /* DebugShakeWindow.m in Sources */,
+				2E1E0BA420C776DB003373F5 /* abc.m in Sources */,
 				2E452060205FCD1C00A6C71D /* DebugListTableViewController.m in Sources */,
 				2E452063205FCD1C00A6C71D /* DebugSwitchBaseUrlController.m in Sources */,
-				2E984E312047F41700BA0B30 /* abc.m in Sources */,
 				2E984D372047A32300BA0B30 /* AppDelegate.m in Sources */,
 				2E452062205FCD1C00A6C71D /* DebugAppDownloadController.m in Sources */,
 			);
