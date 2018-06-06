@@ -70,7 +70,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2E1E0BE920C7818F003373F5 /* lujh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lujh.h; sourceTree = "<group>"; };
 		2E1E0BEF20C78844003373F5 /* abc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = abc.m; sourceTree = "<group>"; };
 		2E1E0BF020C78844003373F5 /* abc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abc.h; sourceTree = "<group>"; };
 		2E1E0C3220C7BF91003373F5 /* hjk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hjk.h; sourceTree = "<group>"; };
@@ -221,7 +220,6 @@
 		2E984E2E2047F41700BA0B30 /* lujhPrivate */ = {
 			isa = PBXGroup;
 			children = (
-				2E1E0BE920C7818F003373F5 /* lujh.h */,
 				2E1E0C8A20C7C5D9003373F5 /* C */,
 				2E1E0BEE20C78844003373F5 /* B */,
 			);
