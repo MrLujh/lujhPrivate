@@ -18,8 +18,8 @@ s.ios.deployment_target = '7.0'
 
 s.subspec 'B' do |ss|
    
-    ss.source_files = 'lujhPrivate/abc.{h,m}'
-    ss.public_header_files = 'lujhPrivate/abc.h'
+    ss.source_files = 'lujhPrivate/A/abc.{h,m}'
+    ss.public_header_files = 'lujhPrivate/A/abc.h'
     
   end
 end
