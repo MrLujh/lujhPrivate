@@ -7,6 +7,7 @@
 //
 
 #import "c.h"
+#import "abc.h"
 @implementation c
 
 @end

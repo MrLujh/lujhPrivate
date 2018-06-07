@@ -136,8 +136,8 @@
 		2E1E0BEE20C78844003373F5 /* B */ = {
 			isa = PBXGroup;
 			children = (
-				2E1E0BEF20C78844003373F5 /* abc.m */,
 				2E1E0BF020C78844003373F5 /* abc.h */,
+				2E1E0BEF20C78844003373F5 /* abc.m */,
 				2E1E0C3220C7BF91003373F5 /* hjk.h */,
 				2E1E0C3320C7BF91003373F5 /* hjk.m */,
 			);
