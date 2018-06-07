@@ -14,6 +14,13 @@ s.public_header_files = 'lujhPrivate/lujh.h'
 s.source_files = 'lujhPrivate/lujh.h'
 s.ios.deployment_target = '7.0'
 
+s.subspec 'B' do |ss|
+   
+    ss.source_files = 'lujhPrivate/B/**/*.{h,m}'
+    ss.public_header_files = 'lujhPrivate/B/**/*.h'
+    
+  end
+
 s.subspec 'C' do |ss|
    
     ss.source_files = 'lujhPrivate/C/**/*.{h,m}'
@@ -21,10 +28,4 @@ s.subspec 'C' do |ss|
     
   end
 
-s.subspec 'B' do |ss|
-   
-    ss.source_files = 'lujhPrivate/B/**/*.{h,m}'
-    ss.public_header_files = 'lujhPrivate/B/**/*.h'
-    
-  end
 end
