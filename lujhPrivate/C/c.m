@@ -7,7 +7,6 @@
 //
 
 #import "c.h"
-#import "hjk.h"
 @implementation c
 
 @end
