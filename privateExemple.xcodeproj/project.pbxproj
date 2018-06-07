@@ -220,8 +220,8 @@
 		2E984E2E2047F41700BA0B30 /* lujhPrivate */ = {
 			isa = PBXGroup;
 			children = (
-				2E1E0C8A20C7C5D9003373F5 /* C */,
 				2E1E0BEE20C78844003373F5 /* B */,
+				2E1E0C8A20C7C5D9003373F5 /* C */,
 			);
 			path = lujhPrivate;
 			sourceTree = SOURCE_ROOT;
