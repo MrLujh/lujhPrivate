@@ -10,6 +10,7 @@
 		2E1E0BF120C78844003373F5 /* abc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1E0BEF20C78844003373F5 /* abc.m */; };
 		2E1E0C3420C7BF91003373F5 /* hjk.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1E0C3320C7BF91003373F5 /* hjk.m */; };
 		2E1E0C8D20C7C5E8003373F5 /* c.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1E0C8C20C7C5E8003373F5 /* c.m */; };
+		2E1E0FDC20C8DC82003373F5 /* lujh.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1E0FDB20C8DC82003373F5 /* lujh.h */; };
 		2E984D372047A32300BA0B30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E984D362047A32300BA0B30 /* AppDelegate.m */; };
 		2E984D3A2047A32300BA0B30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E984D392047A32300BA0B30 /* ViewController.m */; };
 		2E984D3D2047A32300BA0B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E984D3B2047A32300BA0B30 /* Main.storyboard */; };
@@ -76,6 +77,7 @@
 		2E1E0C3320C7BF91003373F5 /* hjk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hjk.m; sourceTree = "<group>"; };
 		2E1E0C8B20C7C5E8003373F5 /* c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c.h; sourceTree = "<group>"; };
 		2E1E0C8C20C7C5E8003373F5 /* c.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = c.m; sourceTree = "<group>"; };
+		2E1E0FDB20C8DC82003373F5 /* lujh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lujh.h; sourceTree = "<group>"; };
 		2E984D322047A32300BA0B30 /* privateExemple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = privateExemple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E984D352047A32300BA0B30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E984D362047A32300BA0B30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 		2E984E2E2047F41700BA0B30 /* lujhPrivate */ = {
 			isa = PBXGroup;
 			children = (
+				2E1E0FDB20C8DC82003373F5 /* lujh.h */,
 				2E1E0BEE20C78844003373F5 /* B */,
 				2E1E0C8A20C7C5D9003373F5 /* C */,
 			);
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E984DE42047CFED00BA0B30 /* privateFramework.h in Headers */,
+				2E1E0FDC20C8DC82003373F5 /* lujh.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
