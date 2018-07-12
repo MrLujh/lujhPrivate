@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = 'lujhPrivate'
-s.version     = '7.0.3'
+s.version     = '7.0.4'
 s.authors     = { 'daniulaolu' => '287929070@qq.com' }
 s.homepage    = 'https://github.com/MrLujh/lujhPrivate'
 s.summary     = 'a dropdown menu for ios like wechat homepage.'
@@ -13,6 +13,8 @@ s.requires_arc = true
 s.public_header_files = 'lujhPrivate/lujh.h'
 s.source_files = 'lujhPrivate/lujh.h'
 s.ios.deployment_target = '7.0'
+
+s.dependency 'SVProgressHUD'
 
 s.subspec 'B' do |ss|
    
